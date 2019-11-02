@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户列表界面</title>
+</head>
+
+<body>
+    <h2>请输入信息</h2>
+    <form action="/user/list" method="GET">
+        <table bgcolor="red">
+            <tr>
+                <td>开始:</td>
+                <td><input type="text" name="pno"></td>
+            </tr>
+            <tr>
+                <td>数量:</td>
+                <td><input type="text" name="count"></td>
+            </tr>
+            <tr align="right">
+                <td colspan="2"><input type="submit" value="查询"></td>
+            </tr>
+        </table>
+    </form>
+    <a href="index.html">返回到首页</a>
+</body>
+
+</html>
